@@ -1,0 +1,92 @@
+.container-fluid{
+
+	min-height: 100%;
+
+}
+
+header{
+
+	background-image: url(Images/header-background.jpg);
+	background-size: 100% 100%;
+	height: 100%;
+	color: white;
+	text-align: center;
+	background-attachment: fixed;
+}
+
+header h1{
+
+	font-size: 70px;
+	
+}
+
+header h2{
+
+	font-size: 50px; 
+	
+}
+
+header button{
+
+	border-width: thick;
+	border-color: rgb(255, 255, 255);
+	background-color: rgba(0,0,0,0);
+
+}
+
+header span{
+
+	color: white;
+
+}
+
+#What span{
+
+	color: white;
+}
+
+#What{
+
+	text-align: center;
+
+}
+#What h2{
+
+	font-size: 30px
+
+}
+
+#What h3{
+
+	font-size: 25px;
+
+}
+
+#What p{
+
+	font-size: 20px;		
+
+}
+
+#What button{
+
+	background-color: white;
+	
+}
+
+#What span{
+
+	color: black;
+
+}
+
+#app{
+
+	background-image: url(Images/app-background.png);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	text-align: center;
+	color: white;
+	
+
+}

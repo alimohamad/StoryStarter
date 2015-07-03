@@ -1,0 +1,94 @@
+<DOCTYPE! html>
+	
+	<html>
+	
+		<head>
+		
+			<title>StoryStarter|Home</title>
+		
+			<link type="text/css" rel="stylesheet" href="SS.css">
+			
+			<link type="text/css" rel="stylesheet" href="Bootstrap/css/bootstrap.css">
+			
+		</head>
+	
+		<body>
+		
+			<header class="container-fluid">
+			
+				<br/>
+				<br/>
+				<img src="Images/Book.png">
+				<h1>Welcome to StoryStarter,</h1>
+				<h2>Writer's Block's Worst Nightmare.</h2>
+				
+				<br/>
+				<br/>
+				<button type="button" class="btn btn-lg">
+  <a href="#What"><span id="caret" class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+</button></a>
+			</header>
+		
+			
+			<div class="container-fluid" id="What">
+				<br/>
+				<br/>
+				<h2>Everyone Gets Writers Block.</h2>
+				<br/>
+				<br/>
+				<br/>				
+				
+				<div class="row">
+				
+					<div class="col-md-6">
+						
+						<img src="Images/Pencil.png">
+						<h3>Write Different.</h3>
+						<p>The objective of StoryStarter is to give the user a wide variety of options for stories to write by giving them thousands of potential combinations of a character, a setting, and a problem to solve. These topics are purposely vague so that the writer has the liberty to add whatever plot twists and devices to the story they want, but offers a basic framework to get the creative juices flowing whenever their mind draws up a blank on its own.</p>
+						
+						
+						
+					
+					</div>
+					
+					<div class="col-md-6">
+					
+						<img src="Images/Number.png">
+						<h3>Up to 8000 different story starters, and more on the way.</h3>
+						<p>The structure of this website was made for optimal user experience; not every story is going to be appealing to the people on this site, which is why there are so many different potential stories. Additionally, more stories can be added, so the growth of this app will be imminent. Eventually, integration of Google Docs, so that users can write the stories and have them saved to the cloud, will be available, and we are currently figuring out how to utilize NaNoWriMo's API for similar reasons.</p>
+					
+					</div>
+				
+				</div>
+			
+				<h3>Click Below to Use the App!	</h3>
+				<button type="button" class="btn btn-lg">
+  <a href="#app"><span id="caret" class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+</button></a>
+			</div>
+			
+			<div id="app" class="container-fluid">
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<h1>Click here to Generate your Story Starter!</h1>
+				<h3 id="prompt"></h3>
+
+				<button class="generate btn" onclick="story()">Generate!</button>
+			
+			</div>
+			
+			<script type="text/javascript" src="app.js"></script>
+			<script type="text/javascript" src="jquery.js"></script>
+		</body>
+	
+	</html>
